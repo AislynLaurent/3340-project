@@ -1,0 +1,165 @@
+body {
+    background-color: #cfecf1;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+}
+input[type=submit]{
+    background-color: #ef7576;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1em;
+    color: #421414;
+    border: 1px solid #b45a5b;
+    border-radius: 5px;
+}
+#inline {
+    display: inline;
+}
+header {
+    background-color: #fdc372;
+    height: 58px;
+    overflow: hidden;
+    margin-top: -20px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+}
+#header-content {
+    width: 60%;
+    margin: auto;
+}
+.left-header-box {
+    width: 20%;
+    float: left;
+}
+.right-header-box {
+    width: 80%;
+    float: right;
+}
+.logo {
+    display: inline;
+    vertical-align: text-top;
+}
+.logo-type {
+    display: inline;
+    vertical-align: text-top;
+    margin-top: 2px;
+    margin-left: -100px;
+}
+.current-user {
+    background-color: #fff;
+    font-size: 1.3em;
+    display: inline-block;
+    margin-top: 4px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.current-user p {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #fff;
+    overflow-x: hidden;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    padding-top: 20px;
+    border-left: 10px solid #ef7576;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    margin: 10px 0 5px 5px;
+}
+.menu {
+    margin-left: 25px;
+}
+main {
+    width: 60%;
+    margin: auto;
+}
+#hidden {
+    visibility: hidden;
+}
+#form-error {
+    background-color: #fff;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#left-box {
+    width: 58%;
+    float: left;
+}
+.item-select {
+    margin-right: 3px;
+}
+.item-menu {
+    background-color: #fdc372;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.item-list {
+    background-color: #fbf4d3;
+    padding: 15px;
+    border-radius: 10px;
+}
+.item-list table {
+    margin: 10px;
+}
+.item {
+    background-color: #fff;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #777;
+    border-radius: 7px;
+}
+.item p {
+    display:inline;
+    padding: 0 10px 0 10px;
+}
+#right-box {
+    width: 40%;
+    float: right;
+}
+.transaction-title {
+    background-color: #fdc372;
+    margin: 0;
+    padding: 5px 5px 5px 25px;
+    border-radius: 10px 10px 0 0;
+}
+.transaction-details {
+    background-color: #fff;
+    margin: 0;
+    padding: 15px;
+}
+.transaction-details td{
+    width: 100px;
+}
+.transaction-footer {
+    background-color: #fdc372;
+    margin: 0;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+}
+.transaction-footer td{
+    width: 100px;
+}
+#full-width-box {
+    background-color: #fbf4d3;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 10px;
+}
+#full-width-box td{
+    width: 100px;
+}
+.login {
+    font-size: 1.2em;
+}
